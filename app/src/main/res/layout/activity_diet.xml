@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="false">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DietActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Diet Plan"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/clr"
+        android:textSize="40dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tips to manage your weight : "
+        android:textStyle="bold"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="25dp"
+        android:textColor="@color/gray"
+        android:textSize="25dp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Do not skip meals.                                                                                                                        Start the day with a healthy breakfast.                                                                                                     Eating 3 meals per day helps your body have energy it prevents hunger."
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Control your portion size.                                                                                                          Use a standard 9 inch plate and avoid bigger plate sizes."
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eat when hungry.                                                                                                                        Avoid eating to relax , or because you are bored or depressed.                                Take a walk or do something you enjoy instead."
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Drink plenty of water.                                                                                                                  Aim for a minimum of 6 to 8 glasses (2 litres) of water each day."
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Limit sugar and sweets.                                                                                                Desserts have many calories and few nutrients."
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose healthy snacks.                                                                                                         Enjoy fresh fruit , vegetables , or low fat yogurt instead of packaged snacks."
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regular physical activity – aim for 30 minutes , 5 days a week.                                This ensures balance between the energy you get from food and a energy you use."
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tips to Gain weight : "
+        android:textStyle="bold"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="25dp"
+        android:textColor="@color/gray"
+        android:textSize="25dp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:text="Homemade protein smoothies"
+        android:layout_marginEnd="25dp"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chocolate banana nut shake :                                                                                       Combine 1 banana, 1 scoop of chocolate whey protein, and 1 tablespoon (15 mL) of peanut or another nut butter."
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:text="Vanilla berry shake :                                                                                                         Combine 1 cup (237 mL) of fresh or frozen mixed berries, ice, 1 cup (237 mL) of high protein, full fat Greek yogurt, and 1 scoop of vanilla whey protein."
+        android:layout_marginEnd="25dp"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:text="Chocolate hazelnut shake :                                                                                            Combine 15 ounces (444 mL) of chocolate milk with 1 scoop of chocolate whey protein, 1 tablespoon (15 mL) of hazelnut butter, and 1 avocado."
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:text="Super green shake :                                                                                                           Combine 1 cup (237 mL) of spinach, 1 avocado, 1 banana, 1 cup (237 mL) of pineapple, and 1 scoop of unflavored or vanilla whey protein."
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>
+
+</ScrollView>

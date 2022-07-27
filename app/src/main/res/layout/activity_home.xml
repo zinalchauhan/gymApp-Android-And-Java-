@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to The   Fitness Club"
+            android:textSize="40dp"
+            android:gravity="center"
+            android:textColor="@color/clr"
+            android:fontFamily="cursive"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/treadmill"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/gray"
+            android:text="Membership Form"
+            android:textColor="@color/black"
+            android:id="@+id/btnForm"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/gray"
+            android:text="Member's Information"
+            android:textColor="@color/black"
+            android:id="@+id/btnData"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/gray"
+            android:text="User's Data"
+            android:textColor="@color/black"
+            android:id="@+id/btnUser"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/gray"
+            android:text="Logout"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/black"
+            android:id="@+id/btnLogout"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>
